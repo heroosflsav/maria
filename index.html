@@ -73,13 +73,13 @@
     var birthdayInput = document.getElementById('birthdayInput').value;
     var textColor = document.getElementById('colorInput').value;
 
-    if (birthdayInput === '1998-09-03') {  // Check if entered birthday
+    if (birthdayInput === '1998-09-04') {  // Check if entered birthday
       var age = calculateAge(new Date(birthdayInput));
 
       document.getElementById("resultMessage").innerHTML = "Happy " + age + "th Birthday, Angel " + name + " " + surname + "! 🎉🥳🎂";
       document.getElementById("resultMessage").style.color = textColor;  // Set celebration message color
     } else {
-      alert('Sorry, today is not the specified birthday (03/09/1998).');
+      alert('Sorry, today is not the specified birthday (04/09/1998).');
     }
   }
 
